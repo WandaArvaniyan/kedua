@@ -178,23 +178,16 @@ body{
     font-weight: 500;
     word-spacing: 2px;
 }
+.section-4 .container .img-2{
+    height: 97px;
+    padding-top: 10px;
+}
 .section-4 .container .img-3{
-    width: 150px;
-    margin-bottom: 10px;
+    height: 97px;
+    padding-top: 20px;
 }
 .section-4 .container .img-4{
-    width: 150px;
-    margin-left: -8px;
-    /* margin-right: 10px; */
-    margin-top: 10px; 
-    margin-bottom: 20px;
-}
-.section-4 .container .img-5{
-    width: 80px;
-    margin-left: 40px;
-    /* margin-right: 50px */
-    /* margin-top: 10px; */
-    margin-bottom: 20px;
+    height: 100px;
 }
 .section-4 .container .text{
     font-size: 10px;
@@ -224,3 +217,37 @@ body{
     padding-top: 40px;
     font-weight: 500;
 }
+
+/* style footer */
+.top-footer{
+    background-color: rgb(4, 20, 67);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px
+}
+.top-footer .line{
+    border-top: 3px solid #fff;
+    padding-bottom: 20px;
+}
+.top-footer .title{
+    font-weight: bold;
+    word-spacing: 1px;
+}
+.top-footer p{
+    font-size: 12px;
+}
+.top-footer .email{
+    color: brown;
+}
+.top-footer .telp{
+    color: white;
+    margin-top: -20px;
+}
+.top-footer .brand{
+    height: 50px;
+    /* text-align: right; */
+}
+
+/* style bottom footer */
