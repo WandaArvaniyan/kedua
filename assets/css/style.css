@@ -30,6 +30,7 @@ body{
 }
 .banner-text p{
     font-size: 12px;
+    word-spacing: 2px;
 }
 .banner-text h2{
     font-size: 40px;
@@ -55,6 +56,7 @@ body{
 .section-1 .container .title{
     color: brown;
     font-weight: 500;
+    word-spacing: 2px;
 }
 .section-1 .container h1 {
     font-family: 'Times New Roman', Times, serif;
@@ -102,6 +104,7 @@ body{
 .section-2 .container .text-2 .title{
     color: brown;
     font-weight: 500;
+    word-spacing: 2px;
 }
 .section-2 .container .text-2 p{
     font-size: 12px;
@@ -132,6 +135,7 @@ body{
     color: brown;
     font-weight: 500;
     font-size: 12px;
+    word-spacing: 2px;
 }
 .section-3 .container h2{
     font-family: 'Times New Roman', Times, serif;
@@ -172,6 +176,7 @@ body{
     color: brown;
     font-size: 12px;
     font-weight: 500;
+    word-spacing: 2px;
 }
 .section-4 .container .img-3{
     width: 150px;
@@ -188,3 +193,20 @@ body{
 }
 
 /* style section-5 */
+.section-5{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 230px;
+    padding-right: 230px;
+    background-color: rgb(232, 232, 232);
+}
+.section-5 .container h6{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section-5 .container p{
+    font-size: 10px;
+    word-spacing: 1px;
+    padding-top: 40px;
+    font-weight: 500;
+}
