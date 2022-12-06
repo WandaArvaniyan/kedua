@@ -25,15 +25,22 @@ body{
 .banner-text{
     padding-left: 75px;
     padding-right: 700px;
-    padding-top: 100px;
+    padding-top: 90px;
     color: white;
 }
 .banner-text p{
-    size: 10px;
+    font-size: 12px;
 }
 .banner-text h2{
-    size: 400px;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+}
+.banner .banner-text .deskripsi{
+    padding-top: 10px;
+}
+.banner .banner-text .hub{
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 /* style section-1 */
@@ -57,14 +64,18 @@ body{
 .section-1 .container p{
     font-size: 12px;
 }
+.section-1 .container .deskripsi{
+    padding-top: 10px;
+}
 .section-1 .container .hub {
+    padding-top: 10px;
     font-weight: bolder;
 }
 .section-1 .container .about-pict{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     margin-left: 100px;
-    margin-top: 30px;
+    /* margin-top: 10px; */
     margin-bottom: 30px;
 }
 
@@ -105,4 +116,29 @@ body{
 }
 .section-2 .container .text-2 .hub{
     font-weight: bold;
+}
+
+/* style section-3 */
+.section-3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-3 .container{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.section-3 .container .title{
+    color: brown;
+    font-weight: 500;
+    font-size: 12px;
+}
+.section-3 .container h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.section-3 .container .img{
+    width: 100px;
+}
+.section-3 .container .text-img{
+
 }
