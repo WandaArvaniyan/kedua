@@ -251,3 +251,10 @@ body{
 }
 
 /* style bottom footer */
+.bottom-footer{
+    background-color: rgb(4, 20, 67);
+    color: rgba(255, 255, 255, 0.457);
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 12px;
+}
