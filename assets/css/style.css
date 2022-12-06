@@ -121,7 +121,8 @@ body{
 /* style section-3 */
 .section-3{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 15px;
+    background-color: rgb(232, 232, 232);
 }
 .section-3 .container{
     padding-left: 75px;
@@ -136,9 +137,54 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
 }
+.section-3 .container .row{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
 .section-3 .container .img{
     width: 100px;
 }
-.section-3 .container .text-img{
-
+.section-3 .container .img-2{
+    width: 100px;
+    opacity: 0%;
 }
+.section-3 .container .text-img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section-3 .container h5{
+    font-size: 12px;
+    font-weight: bold;
+}
+.section-3 .container p{
+    font-size: 9px;
+    font-weight: bold;
+}
+
+/* style section-4 */
+.section-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.section-4 .container .title{
+    color: brown;
+    font-size: 12px;
+    font-weight: 500;
+}
+.section-4 .container .img-3{
+    width: 150px;
+}
+.section-4 .container .img-4{
+    width: 150px;
+}
+.section-4 .container .img-5{
+    width: 90px;
+}
+.section-4 .container .text{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+/* style section-5 */
