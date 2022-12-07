@@ -3,14 +3,16 @@
 *,body{
     font-family: "Montserrat", sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4{
     font-family: 'Times New Roman', Times, serif;
 }
 
 /* style header */
 .header{
     padding-left: 100px;
+    padding-right: 100px;
     position: fixed;
+    align-items: center;
 }
 #header ::after, ::before{
     box-sizing: border-box;
@@ -18,49 +20,34 @@ h1,h2,h3,h4,h5,h6{
 .header-atas{
     display: flex;
     justify-content: space-between;
-    justify-content: flex-end;
-    align-items: right;
-    padding-top: 13px;
-    padding-right: 60px;
+    height: 90px;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-left: 48px;
+    margin-left: 48px;
+    gap: 100px;
 }
 .brand{
     position: absolute;
-    width: 80px;
-    height: 80px;
-    margin-top: 10px;
-    margin-left: -50px;
-
+    margin-top: 20px;
 }
 .brand2{
-    padding-right: 420px;
-    padding-left: 15px;
-    height: 30px;
-    margin-top: 7px;
+    margin-left: 10px;
+    margin-top: 13px;
 }
 .p{
-    /* margin-left: 10px; */
-    margin-right: 10px;
-    margin-top: 9px;
+    margin-right: 50px;
+    margin-top: 20px;
 }
 .hed{
-    justify-content: space-between;
-    /* padding-right: 20px; */
     align-items: center;
-}
-.line2{
-    border-top: 1px solid #fff;
-    padding-bottom: 2px;
-    width: 1105px;
-    /* position: absolute; */
-    margin-top: -7px;
-    align-items: center;
+    display: flex;
+    gap: 35px;
 }
 .header-bawah{
-    position: absolute;
-    margin-top: 40px;
-    padding-right: 865px;
-    /* margin-left: 50px;
-    padding-right: 200px; */
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .header p{
     font-size: 12px;
@@ -74,34 +61,32 @@ h1,h2,h3,h4,h5,h6{
     background-image: url("../img/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     height: 630px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    display: block;
+    align-items: center;
 }
 .banner-text{
-    padding-left: 75px;
-    padding-right: 730px;
-    padding-top: 145px;
+    padding-right: 700px;
     color: white;
 }
 .banner-text .title{
-    font-size: 10px;
-    letter-spacing: 2px;
-    /* margin-bottom: -1px; */
-    
+    font-size: 13px;
+    letter-spacing: 1px;    
 }
 .banner-text p{
-    font-size: 10px;
+    font-size: 13px;
     word-spacing: 2px;
 }
 .banner-text h2{
-    font-size: 38px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.banner .banner-text .deskripsi{
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .banner .banner-text .hub{
     font-weight: bold;
+    letter-spacing: 1px;
+    padding-top: 20px;
 }
 
 /* style section-1 */
@@ -110,22 +95,23 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 100px;
 }
 .section-1 .container{
-    padding-left: 75px;
-    padding-right: 75px;
+    /* padding-left: 50px; */
+    padding-right: 50px;
 }
 .section-1 .container .title{
     color: brown;
     letter-spacing: 1px;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 13px;
+    margin-top: 30px;
 }
 .section-1 .container h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 50px;
     margin-right: -83px;
 }
 .section-1 .container p{
-    font-size: 12px;
+    font-size: 14px;
 }
 .section-1 .container .deskripsi{
     padding-top: 10px;
@@ -134,13 +120,13 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 10px;
     letter-spacing: 1px;
     font-weight: 600;
-    font-size: 10px;
+    font-size: 13px;
     /* font-weight: bolder; */
 }
 .section-1 .container .about-pict{
-    width: 320px;
-    height: 320px;
-    margin-left: 100px;
+    /* width: 100%; */
+    height: 450px;
+    margin-left: 200px;
     /* margin-top: 10px; */
     margin-bottom: 30px;
 }
@@ -149,44 +135,39 @@ h1,h2,h3,h4,h5,h6{
 .section-2{
     background-color: rgb(4, 20, 67);
     color: white;
-    padding-left: 75px;
-    padding-right: 75px;
 }
 .section-2 .container{
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .section-2 .container .about-pict{
-    width: 450px;
-    height: 450px;
-    padding-left: 50px;
+    /* width: 40px; */
+    height: 600px;
 }
 .section-2 .container .text-2{
     padding-top: 50px;      
-    margin-left: -50px;  
+    /* margin-left: -50px;   */
 }
 .section-2 .container .text-2 .title{
     color: brown;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
     font-weight: 600;
 }
 .section-2 .container .text-2 p{
-    font-size: 12px;
-    margin-right: 100px;
+    font-size: 15px;
 }
 .section-2 .container .text-2 h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 50px;
     margin-left: -100px;
-    /* font-style: italic; */
     font-weight: bold;
 }
 .section-2 .container .text-2 .hub{
-    /* font-weight: bold; */
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 /* style section-3 */
@@ -195,41 +176,37 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 15px;
     background-color: rgb(232, 232, 232);
 }
-.section-3 .container{
-    padding-left: 75px;
-    padding-right: 75px;
-}
 .section-3 .container .title{
     color: brown;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
     font-weight: 600;
 }
 .section-3 .container h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 43px;
 }
 .section-3 .container .row{
     padding-top: 15px;
     padding-bottom: 30px;
 }
 .section-3 .container .img{
-    width: 100px;
+    width: 200px;
 }
 .section-3 .container .img-2{
-    width: 100px;
+    width: 200px;
     opacity: 0%;
 }
 .section-3 .container .text-img{
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 .section-3 .container h5{
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: bolder;
 }
 .section-3 .container p{
-    font-size: 9px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -237,12 +214,13 @@ h1,h2,h3,h4,h5,h6{
 .section-4 {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* align-items: center; */
 }
 .section-4 .container .title{
     color: brown;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -258,13 +236,13 @@ h1,h2,h3,h4,h5,h6{
     height: 100px;
 }
 .section-4 .container .text{
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 20px;
     text-align: center;
     font-weight: bold;
 }
 .section-4 .container .hub{
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
     font-weight: 600;
 }
@@ -273,16 +251,16 @@ h1,h2,h3,h4,h5,h6{
 .section-5{
     padding-top: 100px;
     padding-bottom: 70px;
-    padding-left: 230px;
-    padding-right: 230px;
     background-color: rgb(232, 232, 232);
 }
-.section-5 .container h6{
-    font-size: 25px;
+.section-5 .container h2{
+    /* font-size: 40px; */
+    padding-left: 160px;
+    padding-right: 160px;
     font-weight: bold;
 }
 .section-5 .container p{
-    font-size: 10px;
+    font-size: 13px;
     word-spacing: 1px;
     padding-top: 40px;
     font-weight: 600;
@@ -295,7 +273,7 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 20px;
     padding-bottom: 50px;
     padding-left: 75px;
-    padding-right: 75px
+    padding-right: 75px;
 }
 .top-footer .line{
     border-top: 3px solid #fff;
@@ -306,7 +284,7 @@ h1,h2,h3,h4,h5,h6{
     word-spacing: 1px;
 }
 .top-footer p{
-    font-size: 12px;
+    font-size: 14px;
 }
 .top-footer .email{
     color: brown;
@@ -316,7 +294,7 @@ h1,h2,h3,h4,h5,h6{
     margin-top: -20px;
 }
 .top-footer .brand-footer{
-    height: 50px;
+    height: 80px;
 
 }
 
@@ -326,5 +304,5 @@ h1,h2,h3,h4,h5,h6{
     color: rgba(255, 255, 255, 0.457);
     padding-left: 75px;
     padding-right: 75px;
-    font-size: 12px;
+    font-size: 14px;
 }
