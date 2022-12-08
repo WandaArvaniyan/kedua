@@ -11,8 +11,9 @@ h1,h2,h3,h4{
 .header{
     padding-left: 100px;
     padding-right: 100px;
-    position: fixed;
+    /* position: fixed; */
     align-items: center;
+    background-color: rgb(4, 20, 67);
 }
 #header ::after, ::before{
     box-sizing: border-box;
