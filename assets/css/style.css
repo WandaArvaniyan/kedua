@@ -9,11 +9,10 @@ h1,h2,h3,h4{
 }
 
 /* style header */
-#header{
+.header{
     position: fixed;
     align-items: center;
     display: flex;
-
     /* background-color: rgb(4, 20, 67); */
 }
 .header-atas{
@@ -62,6 +61,12 @@ h1,h2,h3,h4{
     justify-content: space-between;
     /* width: 90px; */
 }
+.header.sticky{
+    background: rgb(4, 20, 67);
+    position: fixed;
+    box-shadow: 0px 1px 15px rgb(0 0 0 / 10%);
+    z-index: 999;
+}
 
 /* style banner */
 .banner{
@@ -71,13 +76,15 @@ h1,h2,h3,h4{
     height: 630px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 200px;
-    display: block;
+    
+    /* display: block; */
     align-items: center;
 }
 .banner-text{
-    padding-right: 700px;
+    width: 400px;
+    padding-top: 200px;
     color: white;
+    align-items: left;
 }
 .banner-text .title{
     font-size: 13px;
@@ -185,6 +192,8 @@ h1,h2,h3,h4{
 .section-3{
     padding-top: 100px;
     padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: rgb(232, 232, 232);
 }
 .section-3 .container .title{
@@ -195,7 +204,7 @@ h1,h2,h3,h4{
 }
 .section-3 .container h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 43px;
+    font-size: 40px;
 }
 .section-3 .container .row{
     padding-top: 15px;
