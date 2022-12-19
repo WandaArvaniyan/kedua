@@ -100,7 +100,10 @@ h1,h2,h3,h4{
 .banner .banner-text .hub{
     font-weight: bold;
     letter-spacing: 1px;
-    padding-top: 20px;
+    padding-top: 14px;
+}
+.banner .banner-text .more{
+    display: flex;
 }
 
 /* style section-1 */
@@ -133,9 +136,9 @@ h1,h2,h3,h4{
     padding-top: 10px;
 }
 .section-1 .container .hub {
-    padding-top: 10px;
+    padding-top: 15px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 13px;
     /* font-weight: bolder; */
 }
@@ -145,6 +148,9 @@ h1,h2,h3,h4{
     margin-left: 135px;
     /* margin-top: 10px; */
     margin-bottom: 30px;
+}
+.section-1 .more{
+    display: flex;
 }
 
 /* style section-2 */
@@ -184,8 +190,11 @@ h1,h2,h3,h4{
 .section-2 .container .text-2 .hub{
     font-size: 13px;
     letter-spacing: 1px;
-    font-weight: 600;
-    margin-top: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.section-2 .more{
+    display: flex;
 }
 
 /* style section-3 */
@@ -229,6 +238,12 @@ h1,h2,h3,h4{
     font-size: 13px;
     font-weight: bold;
 }
+.section-3 .more{
+    display: flex;
+}
+.section-3 .more .hubb{
+    padding-top: 1px;
+}
 
 /* style section-4 */
 .section-4 {
@@ -264,7 +279,11 @@ h1,h2,h3,h4{
 .section-4 .container .hub{
     font-size: 13px;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.section-4 .more{
+    display: flex;
 }
 
 /* style section-5 */
@@ -284,6 +303,9 @@ h1,h2,h3,h4{
     word-spacing: 1px;
     padding-top: 40px;
     font-weight: 600;
+}
+.section-5 .more{
+    display: flex;
 }
 
 /* style footer */
@@ -315,7 +337,6 @@ h1,h2,h3,h4{
 }
 .top-footer .brand-footer{
     height: 80px;
-
 }
 
 /* style bottom footer */
